@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="ENGR301" type="main" name="height" output="screen">
+		<remap from="in" to="/camera/rgb/segmentation/stationary" />
+	</node>
+
+</launch>
